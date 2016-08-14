@@ -33,6 +33,7 @@ int find(int r){
    return (parent[r]==r)?r:parent[r]=find(parent[r]);                // 2
    //any of them you can use, it's your responsibility to find out why the second is work
    //for batter understanding the diffrent between 1 & 2 you can do some paper & pen work :) 
+   //for your kind information the second procedure is called by "path compression"
 }
 void mst(int n){
     sort(e.begin(),e.end());
