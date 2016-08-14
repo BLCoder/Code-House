@@ -5,7 +5,7 @@ number. and we sort all edges by their weight. suppose it is u & v , we find out
 which is the reprasantatorof their set, if the reprasantator of two node is same
 that means these two node is in same set. so, if we take this two node for creat
 mst, their have creat a cycle, so we can't take it.now if their reprasantator is
-diffrent that means they are is diffrent set, so we take it, and we change their
+diffrent that means they are in diffrent set, so we take it, and we change their
 set as their reprasantator
 
 so, final approach is
