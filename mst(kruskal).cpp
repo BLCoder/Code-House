@@ -29,7 +29,10 @@ struct edge{
 }ver;
 vector<edge>e;
 int find(int r){
-   return (parent[r]==r)?r:find(parent[r]);
+   return (parent[r]==r)?r:find(parent[r]);                          // 1
+   return (parent[r]==r)?r:parent[r]=find(parent[r]);                // 2
+   //any of them you can use, it's your responsibility to find out why the second is work
+   //for batter understanding the diffrent between 1 & 2 you can do some paper & pen work :) 
 }
 void mst(int n){
     sort(e.begin(),e.end());
