@@ -21,7 +21,7 @@ void disjoint_set(int n){
     }
 }
 int main(){
-    //I always use scanf && printf
+    ///I always use scanf && printf
     //freopen("in.txt","w",stdout);
     int t,t1,t2,r,mn;
     string s;
