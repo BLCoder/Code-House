@@ -21,6 +21,7 @@ int dfs(int n,int dis){
     return d[dis];
 }
 int main(){
+    //I always use scanf & printf
     int n,e;
     scanf("%d%d",&n,&e);
     for(int i=0;i<e;i++){
