@@ -1,13 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	int ar[100];
-	int n;
-	scanf("%d",&n);
-	for(int i=0;i<n;i++){
+    int ar[100];
+    int n;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
         scanf("%d",&ar[i]);
-	}
-	for(int i=1;i<n;i++){
+    }
+    for(int i=1;i<n;i++){
         int j=i;
         while(ar[j]<ar[j-1]&&j>0){
             swap(ar[j],ar[j-1]);
@@ -17,10 +17,10 @@ int main(){
             }
             printf("\n");
         }
-	}
-	for(int i=0;i<n;i++){
+    }
+    for(int i=0;i<n;i++){
         printf("%d ",ar[i]);
-	}
+    }
 }
 
 /**
