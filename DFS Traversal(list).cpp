@@ -15,7 +15,6 @@ void dfs(int n){
             }
         }
         if(q.empty()!=0) break;
-        //cout<<q.top()<<" ";   ///see the topological sort
         q.pop();
     }
 }
@@ -50,6 +49,5 @@ int main(){
 6 3
 
 dfs traversal -> 1 2 3 6 9 4 5 7 8
-topological sort -> 1 2 3 6 9 4 5 8 7
 
 */
