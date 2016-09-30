@@ -5,7 +5,7 @@ int visit[1000];
 stack<int>q;
 void dfs(int n){
     q.push(n);
-    cout<<n<<" "; ///see dfs traversal
+    cout<<n<<" ";
     visit[n]=1;
     while(!q.empty()){
         int cur=q.top();
