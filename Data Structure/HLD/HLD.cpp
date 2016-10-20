@@ -34,6 +34,7 @@ void scan(int &n){
     }
     if(negative) n=~(n-1);
 }
+
 void print(int n){
     if(n<0){
         pc('-');
